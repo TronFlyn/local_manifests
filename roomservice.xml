@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="TronFlyn/device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" revision="pie" />
+  <project name="TronFlyn/rr_device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" revision="pie" />
   <project name="TronFlyn/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="lineage-16.0" />
-  <project name="TronFlyn/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="oc" />
+  <project name="TronFlyn/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="sar" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-  <project name="TronFlyn/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.x" />
+  <project name="TronFlyn/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
   <project name="TronFlyn/aarch64-linux-android-8.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.2" remote="github" revision="master" />
   
 </manifest>
