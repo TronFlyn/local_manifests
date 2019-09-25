@@ -6,4 +6,16 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   <project name="TronFlyn/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
   <project name="TronFlyn/MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="master" />
+
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="gapps" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gapps" />
+
+  <!-- arm64 depends on arm -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="gapps" />
+
 </manifest>
