@@ -2,9 +2,9 @@
 <manifest>
   <project name="TronFlyn/device_xiaomi_sagit-1" path="device/xiaomi/sagit" remote="github" revision="10" />
   <project name="TronFlyn/device_xiaomi_msm8998-common-1" path="device/xiaomi/msm8998-common" remote="github" revision="10" />
-  <project name="TronFlyn/android_kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="pie-7.4" />
+  <project name="TronFlyn/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="10" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
   <project name="AOSP-10/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="10" />
-  <project name="AOSP-10/prebuilts_clang_host_linux-x86_clang-wloot" path="prebuilts/clang/host/linux-x86/clang-wloot" remote="github" revision="master" />
+  <project name="TronFlyn/clang" path="prebuilts/clang/host/linux-x86/clang-wloot" remote="github" revision="master" />
   <project name="AOSP-CAF-SAGIT/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="10" />
 </manifest>
