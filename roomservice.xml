@@ -4,6 +4,6 @@
   <project name="TronFlyn/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="lineage-17.1" />
   <project name="AOSP-10/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="10" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
-  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="github" revision="lineage-17.1-legacy-um" />
   <project name="TronFlyn/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-17.1" />
 </manifest>
