@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="device/oneplus/oneplus3" />
+  <remove-project name="kernel/oneplus/msm8996" />
+  <remove-project name="external/json-c" />
+
+</manifest>
