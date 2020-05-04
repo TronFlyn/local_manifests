@@ -2,7 +2,7 @@
 <manifest>
   <project name="TronFlyn/device_xiaomi_sagit" path="device/xiaomi/sagit" remote="github" revision="crd-new" />
   <project name="TronFlyn/device_xiaomi_msm8998-common" path="device/xiaomi/msm8998-common" remote="github" revision="lineage-17.1" />
-  <project name="TronFlyn/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="10" />
+  <project name="TronFlyn/kernel_xiaomi_msm8998" path="kernel/xiaomi/msm8998" remote="github" revision="re" />
   <project name="TronFlyn/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-17.1" />
   <project name="TronFlyn/vendor_apps_OPScreenRecord" path="vendor/apps/OPScreenRecord" remote="github" revision="10" />
   <project name="TronFlyn/vendor_apps_MiuiCamera" path="vendor/apps/MiuiCamera" remote="github" revision="10" />
